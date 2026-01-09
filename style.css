@@ -1,0 +1,130 @@
+* {
+    margin: 0;
+    padding: 0;
+    box-sizing: border-box;
+}
+body {
+    font-family: Arial, sans-serif;
+    background-color: #fff8f5;
+    color: #333;
+    margin: 0;
+    padding: 0;
+    line-height: 1.6;
+}
+center {
+    margin-top: 20px;
+}
+h1 {
+    color: #b565a7;
+    font-size: 36px;
+    margin-bottom: 5px;
+}
+h2 {
+    color: #b565a7;          
+    margin: 30px;
+}
+p {
+    max-width: 700px;
+    margin: 10px auto;
+    font-size: 16px;
+    text-align: left;
+    line-height: 1.6;
+}
+a{
+    text-decoration: none;
+    color: #b565a7;
+    margin: 0 10px;
+    font-weight: bold;
+    transition: color 0.3s;
+}
+a:hover {
+    color: #9b4380;
+}
+hr {
+    width: 80%;
+    border: 1px solid #b565a7;
+    margin: 20px auto;
+}
+ul {
+    max-width: 600px;
+    margin: 15px auto;
+    text-align: left;
+    padding-left: 20px;
+}
+table {
+    margin: 20px auto;
+    border-collapse: collapse;
+}
+td {
+    padding: 10px;
+}
+img {
+    border-radius: 10px;
+}
+table p, table ul {
+    text-align: left;
+    
+}
+table a {
+    display: inline-block;
+    margin-top: 10px;
+    background-color: #b565a7;
+    color: white;
+    padding: 6px 12px;
+    border-radius: 5px;
+    text-decoration: none;
+    font-size: 14px;
+}
+table a:hover {
+    background-color: #9b4380;
+}
+input[ type="text"], input[ type="email"], textarea {
+    width: 90%;
+    padding: 8px;
+    margin: 5px 0 15px 0;
+    border: none;
+    border-radius: 5px;
+    cursor: pointer;
+    font-size: 14px;
+}
+input[type="submit"]:hover {
+    background-color: #9b4380;
+}
+.btn-buy {
+    background-color: #b565a7;  
+    color: #ffffff;
+    border: none;
+    padding: 12px 30px;
+    font-size: 16px;
+    font-weight: 600;
+    border-radius: 25px;
+    cursor: pointer;
+    transition: all 0.3s ease;
+    box-shadow: 0 4px 10px rgba(0, 0, 0, 0.2);
+}
+.btn-buy:hover {
+    background-color: #9b4d8c;
+    transform: translateY(-2px);
+    box-shadow: 0 6px 14px rgba(0, 0, 0, 0.25);
+}
+form input[type="submit"] {
+    margin-top: 15px;
+}
+footer, center p {
+    color: #777;
+    font-size: 14px;
+    margin-top: 20px;
+}
+@media(max-width: 768px) {
+    img {
+        width: 90%;
+        height: auto;
+    }
+    table, td {
+        display:block;
+        text-align: center;
+    }
+    input[type="text"], input[type="email"], textarea {
+        width: 95%;
+    }
+}
